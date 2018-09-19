@@ -1,0 +1,11 @@
+// Wemos.done() -> Set status to done ipv delete TODO
+// TESTED? App.delete() -> What to do?
+
+// After creation -> Its not clear where the todo is
+COULDHAVE: Filter out todo's from DONE when 
+// Ster -> onduidelijk wat het betekend
+COULDHAVE: Keyboard by create todo is covering other buttons
+// Imporatant = circle, But mark as done = circle
+
+// Change duration to done -> 3 seconds
+// Today + unschedueled on Wemos

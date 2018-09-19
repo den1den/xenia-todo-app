@@ -1,0 +1,57 @@
+[
+  {
+    "model": "todo_backend.wemosdevice",
+    "pk": 1,
+    "fields": {
+      "ip_address": "0.0.0.0",
+      "location": 2,
+      "last_request": null
+    }
+  },
+  {
+    "model": "todo_backend.wemosdevice",
+    "pk": 2,
+    "fields": {
+      "ip_address": "0.0.0.0",
+      "location": 3,
+      "last_request": null
+    }
+  },
+  {
+    "model": "todo_backend.wemosdevice",
+    "pk": 3,
+    "fields": {
+      "ip_address": "0.0.0.0",
+      "location": 4,
+      "last_request": null
+    }
+  },
+  {
+    "model": "todo_backend.location",
+    "pk": 1,
+    "fields": {
+      "name": "Anywhere"
+    }
+  },
+  {
+    "model": "todo_backend.location",
+    "pk": 2,
+    "fields": {
+      "name": "Front door"
+    }
+  },
+  {
+    "model": "todo_backend.location",
+    "pk": 3,
+    "fields": {
+      "name": "Kitchen"
+    }
+  },
+  {
+    "model": "todo_backend.location",
+    "pk": 4,
+    "fields": {
+      "name": "Desk"
+    }
+  }
+]

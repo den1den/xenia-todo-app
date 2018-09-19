@@ -1,0 +1,1414 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "todo_backend",
+      "model": "todomodel"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "todo_backend",
+      "model": "wemosdevice"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "todo_backend",
+      "model": "location"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "todo_backend",
+      "model": "statuschange"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "73321vki3iyssuxmcesddzhpsh5wmcmw",
+    "fields": {
+      "session_data": "M2RkYjYwZGM5NzI2ZWMzMWY1ODVkOWIwOTBiMDkyYjYwNDQ3ZGY0Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIwYThmMWJjMDQxZDU0MjI0YzA0Yzg1YjhjZjg4ZTFhZTc0Nzk3NzQwIn0=",
+      "expire_date": "2018-05-24T09:37:58.557Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "pg3qat3pi5rjej259uvleju36i7lw6br",
+    "fields": {
+      "session_data": "M2RkYjYwZGM5NzI2ZWMzMWY1ODVkOWIwOTBiMDkyYjYwNDQ3ZGY0Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIwYThmMWJjMDQxZDU0MjI0YzA0Yzg1YjhjZjg4ZTFhZTc0Nzk3NzQwIn0=",
+      "expire_date": "2018-06-08T20:16:35.112Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "wuyaq2bho2ulsw6mmrlsnkcwz4yx9o68",
+    "fields": {
+      "session_data": "OTdlNGJkYjYzZjlhNzBiZDc4YzBlOTZkNTg0YjljNjA5Y2VkNjAzYjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIwZWMxODQ0MTE5NDkyYTcyODc0OGQ2M2FlZGI3ZTQ5MjU3ZDRjNjhhIn0=",
+      "expire_date": "2018-05-12T22:47:55.460Z"
+    }
+  },
+  {
+    "model": "todo_backend.wemosdevice",
+    "pk": 1,
+    "fields": {
+      "ip_address": "192.168.1.9",
+      "location": 2,
+      "last_request": "2018-05-25T22:25:01.310Z"
+    }
+  },
+  {
+    "model": "todo_backend.wemosdevice",
+    "pk": 2,
+    "fields": {
+      "ip_address": "192.168.1.50",
+      "location": 3,
+      "last_request": null
+    }
+  },
+  {
+    "model": "todo_backend.location",
+    "pk": 1,
+    "fields": {
+      "name": "Anywhere"
+    }
+  },
+  {
+    "model": "todo_backend.location",
+    "pk": 2,
+    "fields": {
+      "name": "De deur"
+    }
+  },
+  {
+    "model": "todo_backend.location",
+    "pk": 3,
+    "fields": {
+      "name": "Kelder"
+    }
+  },
+  {
+    "model": "todo_backend.todomodel",
+    "pk": 1,
+    "fields": {
+      "name": "Do dat ene ding",
+      "location": 3,
+      "completion_date": "0",
+      "priority": "0",
+      "status": "0",
+      "updated_at": "2018-05-26T10:08:29.611Z"
+    }
+  },
+  {
+    "model": "todo_backend.todomodel",
+    "pk": 2,
+    "fields": {
+      "name": "Do dat overal ding",
+      "location": 1,
+      "completion_date": "0",
+      "priority": "1",
+      "status": "0",
+      "updated_at": "2018-05-26T10:08:29.726Z"
+    }
+  },
+  {
+    "model": "todo_backend.todomodel",
+    "pk": 3,
+    "fields": {
+      "name": "Do dat al gedaan ding",
+      "location": 3,
+      "completion_date": "0",
+      "priority": "0",
+      "status": "0",
+      "updated_at": "2018-05-26T10:08:29.967Z"
+    }
+  },
+  {
+    "model": "todo_backend.todomodel",
+    "pk": 4,
+    "fields": {
+      "name": "Do dat niet meer nodig ding",
+      "location": 3,
+      "completion_date": "0",
+      "priority": "0",
+      "status": "0",
+      "updated_at": "2018-05-26T10:08:30.064Z"
+    }
+  },
+  {
+    "model": "todo_backend.todomodel",
+    "pk": 5,
+    "fields": {
+      "name": "Hello worls",
+      "location": 3,
+      "completion_date": "0",
+      "priority": "1",
+      "status": "0",
+      "updated_at": "2018-05-26T10:08:30.273Z"
+    }
+  },
+  {
+    "model": "todo_backend.todomodel",
+    "pk": 6,
+    "fields": {
+      "name": "0",
+      "location": 1,
+      "completion_date": "1",
+      "priority": "0",
+      "status": "0",
+      "updated_at": "2018-05-26T10:08:30.367Z"
+    }
+  },
+  {
+    "model": "todo_backend.todomodel",
+    "pk": 7,
+    "fields": {
+      "name": "just_THIS",
+      "location": 1,
+      "completion_date": "1",
+      "priority": "0",
+      "status": "0",
+      "updated_at": "2018-05-26T10:08:30.466Z"
+    }
+  },
+  {
+    "model": "todo_backend.todomodel",
+    "pk": 8,
+    "fields": {
+      "name": "just_thisjust_this",
+      "location": 1,
+      "completion_date": "1",
+      "priority": "0",
+      "status": "0",
+      "updated_at": "2018-05-26T10:08:30.566Z"
+    }
+  },
+  {
+    "model": "todo_backend.todomodel",
+    "pk": 9,
+    "fields": {
+      "name": "Bij de deur",
+      "location": 2,
+      "completion_date": "1",
+      "priority": "0",
+      "status": "-1",
+      "updated_at": "2018-05-26T10:44:44.169Z"
+    }
+  },
+  {
+    "model": "todo_backend.todomodel",
+    "pk": 10,
+    "fields": {
+      "name": "MMMMMMMMMMMMMMMMMMMMMMMM",
+      "location": 1,
+      "completion_date": "0",
+      "priority": "1",
+      "status": "0",
+      "updated_at": "2018-05-26T10:08:30.985Z"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 1,
+    "fields": {
+      "todo": 1,
+      "date": "2018-05-25T20:15:43.628Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 2,
+    "fields": {
+      "todo": 10,
+      "date": "2018-05-25T20:16:48.267Z",
+      "status": "1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 3,
+    "fields": {
+      "todo": 9,
+      "date": "2018-05-25T20:16:51.986Z",
+      "status": "1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 4,
+    "fields": {
+      "todo": 8,
+      "date": "2018-05-25T20:16:59.549Z",
+      "status": "1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 5,
+    "fields": {
+      "todo": 6,
+      "date": "2018-05-25T20:17:35.073Z",
+      "status": "1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 6,
+    "fields": {
+      "todo": 5,
+      "date": "2018-05-25T20:17:39.586Z",
+      "status": "1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 7,
+    "fields": {
+      "todo": 4,
+      "date": "2018-05-25T20:17:42.994Z",
+      "status": "1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 8,
+    "fields": {
+      "todo": 2,
+      "date": "2018-05-25T20:17:46.543Z",
+      "status": "1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 9,
+    "fields": {
+      "todo": 1,
+      "date": "2018-05-25T20:17:49.502Z",
+      "status": "1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 10,
+    "fields": {
+      "todo": 3,
+      "date": "2018-05-25T20:18:14.607Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 11,
+    "fields": {
+      "todo": 7,
+      "date": "2018-05-25T20:18:27.536Z",
+      "status": "-1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 12,
+    "fields": {
+      "todo": 6,
+      "date": "2018-05-25T20:26:43.053Z",
+      "status": "-1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 13,
+    "fields": {
+      "todo": 9,
+      "date": "2018-05-25T20:42:40.164Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 14,
+    "fields": {
+      "todo": 4,
+      "date": "2018-05-25T21:59:25.272Z",
+      "status": "-1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 15,
+    "fields": {
+      "todo": 8,
+      "date": "2018-05-25T22:19:56.123Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 16,
+    "fields": {
+      "todo": 7,
+      "date": "2018-05-25T22:20:00.059Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 17,
+    "fields": {
+      "todo": 1,
+      "date": "2018-05-25T22:23:25.326Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 18,
+    "fields": {
+      "todo": 2,
+      "date": "2018-05-25T22:23:25.559Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 19,
+    "fields": {
+      "todo": 4,
+      "date": "2018-05-25T22:23:25.859Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 20,
+    "fields": {
+      "todo": 5,
+      "date": "2018-05-25T22:23:26.069Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 21,
+    "fields": {
+      "todo": 6,
+      "date": "2018-05-25T22:23:26.249Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 22,
+    "fields": {
+      "todo": 10,
+      "date": "2018-05-25T22:23:26.755Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 23,
+    "fields": {
+      "todo": 4,
+      "date": "2018-05-25T22:24:04.121Z",
+      "status": "-1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 24,
+    "fields": {
+      "todo": 9,
+      "date": "2018-05-25T22:29:21.446Z",
+      "status": "-1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 25,
+    "fields": {
+      "todo": 4,
+      "date": "2018-05-25T22:29:50.359Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 26,
+    "fields": {
+      "todo": 9,
+      "date": "2018-05-25T22:29:50.893Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 27,
+    "fields": {
+      "todo": 4,
+      "date": "2018-05-25T22:31:02.149Z",
+      "status": "-1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 28,
+    "fields": {
+      "todo": 9,
+      "date": "2018-05-25T22:39:01.695Z",
+      "status": "-1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 29,
+    "fields": {
+      "todo": 2,
+      "date": "2018-05-25T22:41:09.394Z",
+      "status": "-1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 30,
+    "fields": {
+      "todo": 8,
+      "date": "2018-05-25T22:45:28.872Z",
+      "status": "-1"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 31,
+    "fields": {
+      "todo": 2,
+      "date": "2018-05-26T10:08:29.833Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 32,
+    "fields": {
+      "todo": 4,
+      "date": "2018-05-26T10:08:30.183Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 33,
+    "fields": {
+      "todo": 8,
+      "date": "2018-05-26T10:08:30.664Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 34,
+    "fields": {
+      "todo": 9,
+      "date": "2018-05-26T10:08:30.867Z",
+      "status": "0"
+    }
+  },
+  {
+    "model": "todo_backend.statuschange",
+    "pk": 35,
+    "fields": {
+      "todo": 9,
+      "date": "2018-05-26T10:44:44.284Z",
+      "status": "-1"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can add todo model",
+      "content_type": 7,
+      "codename": "add_todomodel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can change todo model",
+      "content_type": 7,
+      "codename": "change_todomodel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can delete todo model",
+      "content_type": 7,
+      "codename": "delete_todomodel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can add wemos device",
+      "content_type": 8,
+      "codename": "add_wemosdevice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can change wemos device",
+      "content_type": 8,
+      "codename": "change_wemosdevice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can delete wemos device",
+      "content_type": 8,
+      "codename": "delete_wemosdevice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add location",
+      "content_type": 9,
+      "codename": "add_location"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change location",
+      "content_type": 9,
+      "codename": "change_location"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete location",
+      "content_type": 9,
+      "codename": "delete_location"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can add status change",
+      "content_type": 10,
+      "codename": "add_statuschange"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can change status change",
+      "content_type": 10,
+      "codename": "change_statuschange"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can delete status change",
+      "content_type": 10,
+      "codename": "delete_statuschange"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$100000$lL2OVkHG3VLQ$NvRrJDVOyJIunkpJna5bjednCojPv0DkviZNRr+VTcU=",
+      "last_login": "2018-05-25T20:16:35.004Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "den_1_den@hotmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-05-02T18:14:38.205Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2018-05-16T19:55:00.021Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Todo 6: \"Dennis slapen\"",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2018-05-16T19:59:18.607Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Todo 7: \"Springen in de lucht\"",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2018-05-23T18:19:25.079Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Todo 7: \"Springen in de luchtSpringen in de luchtSpringen\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2018-05-23T18:20:04.762Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Todo 7: \"123456789123456789123456789123456789123456789\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2018-05-23T18:23:48.129Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Todo 7: \"24wwwwwwwwwwwwwwwwwwwwq\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2018-05-23T18:23:58.986Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Todo 8: \"25wwwwwwwwwwwwwwwwwwwwwq\"",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2018-05-23T18:24:06.440Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Todo 9: \"26wwwwwwwwwwwwwwwwwwwwwwq\"",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2018-05-23T18:25:02.400Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Todo 8: \"28wwwwwwwwwwwwwwwwwwwwwwwwq\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2018-05-23T18:25:08.876Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Todo 7: \"27wwwwwwwwwwwwwwwwwwwwwwwq\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2018-05-23T18:39:15.845Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Todo 6: \"O\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2018-05-23T18:42:28.362Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Todo 9: \"maxStringSize = 25 chars\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2018-05-23T18:42:42.153Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Todo 8: \"just_this\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2018-05-23T18:42:52.760Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Todo 7: \"just this\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2018-05-23T18:42:58.880Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Todo 6: \"0\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2018-05-23T18:43:21.877Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Todo 9: \"maxStringSize = 25 chars\"",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2018-05-23T18:43:36.747Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Todo 10: \"maxStringSize != 26 chars\"",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2018-05-23T18:46:07.577Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Todo 9: \"maxStringSize == 25 chars\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2018-05-23T18:46:18.805Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Todo 10: \"maxStringSize !== 26 chars\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2018-05-23T18:48:18.054Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Todo 7: \"just_THIS\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2018-05-23T18:56:42.272Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Todo 8: \"just_thisjust_this\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2018-05-23T19:04:10.788Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Todo 10: \"MMMMMMMMMMMMMMMMMMMMMMMM\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2018-05-23T19:04:25.781Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Todo 9: \"iiiiiiiiiiiiiiiiiiiiiiiii\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2018-05-23T19:05:03.957Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Todo 10: \"MMMMMMMMMMMMMMMMMMMMMMMMM\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2018-05-23T19:06:50.831Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Todo 9: \"_________________________\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2018-05-23T19:07:31.630Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Todo 9: \"________________________M\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2018-05-23T19:09:12.188Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Todo 10: \"MMMMMMMMMMMMMMMMMMMMMMMM\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2018-05-23T19:12:05.855Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Todo 9: \"_______________________M\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2018-05-23T19:34:55.889Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Todo 9: \"Bij de deur\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\", \"location\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2018-05-23T19:35:01.816Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Todo 10: \"MMMMMMMMMMMMMMMMMMMMMMMM\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"priority\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2018-05-25T20:16:48.267Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Todo 10: \"MMMMMMMMMMMMMMMMMMMMMMMM\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2018-05-25T20:16:51.986Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Todo 9: \"Bij de deur\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2018-05-25T20:16:59.549Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Todo 8: \"just_thisjust_this\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2018-05-25T20:17:35.073Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Todo 6: \"0\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2018-05-25T20:17:35.603Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Todo 6: \"0\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"updated_at\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2018-05-25T20:17:39.586Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Todo 5: \"Hello worls\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2018-05-25T20:17:42.995Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Todo 4: \"Do dat niet meer nodig ding\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2018-05-25T20:17:46.544Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Todo 2: \"Do dat overal ding\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2018-05-25T20:17:49.502Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Todo 1: \"Do dat ene ding\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2018-05-25T20:18:14.608Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Todo 3: \"Do dat al gedaan ding\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2018-05-25T20:18:27.536Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Todo 7: \"just_THIS\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2018-05-25T22:19:56.125Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Todo 8: \"just_thisjust_this\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2018-05-25T22:20:00.060Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Todo 7: \"just_THIS\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  }
+]
